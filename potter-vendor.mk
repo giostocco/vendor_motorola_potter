@@ -120,10 +120,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/motorola/potter/proprietary/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
     vendor/motorola/potter/proprietary/etc/permissions/izat.xt.srv.xml:system/vendor/etc/permissions/izat.xt.srv.xml \
-    vendor/motorola/potter/proprietary/etc/permissions/mot_dtv_permissions.xml:system/vendor/etc/permissions/mot_dtv_permissions.xml \
     vendor/motorola/potter/proprietary/etc/permissions/com.motorola.cameraone.xml:system/vendor/etc/permissions/com.motorola.cameraone.xml \
     vendor/motorola/potter/proprietary/etc/permissions/cneapiclient.xml:system/vendor/etc/permissions/cneapiclient.xml \
-    vendor/motorola/potter/proprietary/etc/permissions/com.motorola.hardware.dtv.xml:system/vendor/etc/permissions/com.motorola.hardware.dtv.xml \
     vendor/motorola/potter/proprietary/etc/permissions/com.qti.dpmframework.xml:system/vendor/etc/permissions/com.qti.dpmframework.xml \
     vendor/motorola/potter/proprietary/etc/permissions/com.quicinc.cne.xml:system/vendor/etc/permissions/com.quicinc.cne.xml \
     vendor/motorola/potter/proprietary/etc/permissions/ConnectivityExt.xml:system/vendor/etc/permissions/ConnectivityExt.xml \
@@ -1261,8 +1259,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.2.so:/system/vendor/lib64/vendor.display.config@1.2.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.3.so:/system/vendor/lib64/vendor.display.config@1.3.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.4.so:/system/vendor/lib64/vendor.display.config@1.4.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libdtvtuner.so:/system/vendor/lib/libdtvtuner.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libdtvtuner.so:/system/vendor/lib64/libdtvtuner.so
 
 # WFD
 PRODUCT_COPY_FILES += \
@@ -1369,8 +1365,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
-    DTVPlayer \
-    DTVService \
     com.qualcomm.location \
     ims \
     imssettings \
